@@ -1,21 +1,25 @@
+/* 
+colors used
+white, slight off-white: #f1f9f9
+light blue: #c2dfdf, dark blue: #71a1a2, darkest blue: #3b6565
+brown: #3A3017ff
+light orange: #eb9f5c, dark orange: #b85803
+*/
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav {
-    background-color: #71a1a2;
-}
-
 nav a {
     text-align: center;
-    color: white;
+    color: #71a1a2;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #a5bfbf;
-    color: white;
+    background-color: #c2dfdf;
+    color: #3b6565;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -39,12 +43,12 @@ body {
 }
 
 header {
-    background-color: white;
+    background-color: #f1f9f9;
 }
 
 .book, .join {
     background-color: #b85803;
-    color: white;
+    color: #f6f1f1;
     text-decoration: none;
 }
 
@@ -54,15 +58,15 @@ header {
 }
 
 #background {
-    background-color: #d6e8e8;
+    background-color: #f1f9f9;
 }
 
 .msg {
-    background-color: #d6e8e8;
+    background-color: #f1f9f9;
 }
 
 .msg h2 {
-    color: #3A3017ff
+    color: #3A3017ff;
 }
  
 .msg p {
@@ -88,7 +92,7 @@ footer p:hover {
 }
 
 footer a:hover {
-    color: #3A3017ff;
+    color: #c2dfdf;
 }
 
 .home-title {
@@ -100,7 +104,7 @@ h4 {
 }
 
 .home-grid h2 {
-    color: #423b29;
+    color: #3A3017ff;
 }
 
 .icon {
