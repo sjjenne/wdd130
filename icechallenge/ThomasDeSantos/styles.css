@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.circles img {
+    width: 20%;
+    border: solid #494444 10px;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.circles {
+    text-align: center;
+}

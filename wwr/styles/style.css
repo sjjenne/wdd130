@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Fjalla One, Lilita One, Outfit;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+header {
+    background-color: white; 
 }
 
 nav a {
     text-align: center;
-    color: #71a1a2;
+    color: #b85803; 
+    /* font-family: Lilita One, Fjalla One, Outfit; */
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
-    background-color: #c2dfdf;
-    color: #3b6565;
+    color: #eb9f5c;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -26,27 +49,64 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: #f1f9f9;
+
+h2 {
+    margin: 0;
+}
+
+.home-title {
+    color: #b85803;
+    font-family: Lilita One, Fjalla One, Outfit;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #3A3017ff;
 }
 
 .book, .join {
-    background-color: #b85803;
+    background-color: #71a1a2;
     color: #f6f1f1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
     background-color: #eb9f5c;
     color: white;
+    
+}
+
+.home-grid h2 {
+    color: #3A3017ff;
+    font-family: Fjalla One, Lilita One, Outfit;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #71a1a2;
 }
 
 #background {
@@ -55,6 +115,8 @@ header {
 
 .msg {
     background-color: #f1f9f9;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -63,11 +125,16 @@ header {
  
 .msg p {
     color: #3A3017ff;
+    font-family: Outfit, Lilita One, Fjalla One;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #71a1a2;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -87,23 +154,7 @@ footer a:hover {
     color: #c2dfdf;
 }
 
-.home-title {
-    color: #3A3017ff;
-}
-
-h4 {
-    color: #3A3017ff;
-}
-
-.home-grid h2 {
-    color: #3A3017ff;
-}
-
-.icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
+footer .social img {
+    padding-top: 15px;
 }
 

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+
+body {
+    background-color: rgb(106, 170, 243);
+}
+
+header p {
+    color: white;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#title, #author {
+    color: white;
+    font-family: Liter;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#title:hover {
+    color: black;
+}
+
+li {
+    color: black;
+    font-family: Liter;
+    font-weight: bolder;
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#quote {
+    color: white;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+footer p {
+    color: black;
+    font-family: Liter;
+    font-size: 15px;
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+}

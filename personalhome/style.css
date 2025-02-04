@@ -35,18 +35,25 @@ nav a:hover {
 }
 
 img {
-    width: 600px;
+    width: 50%;
     display: block;
-    margin: 0 auto;
+    margin: 50px auto;
+    border: 4px solid #794444;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 p {
-    color: #8b5252;
-    padding: 0px 30px;
-    line-height: 2.5em;
-    width: 600px;
+    background-color: #4d5b45d1;
+    color: #fff5f3;
+    padding: 0 30px;
+    line-height: 2em;
+    width: 50%;
     margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 
 #body-text {
     padding-top: 30px;
