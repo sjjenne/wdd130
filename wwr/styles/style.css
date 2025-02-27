@@ -291,3 +291,65 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/* specific CSS for RIVERS page */
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 9fr auto;
+}
+
+.section1 {
+    grid-row: 1/6;
+    grid-column: 1/8;
+    align-items: top;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 9fr auto;
+}
+
+.idaho-text {
+    grid-row: 2/6;
+    grid-column: 2/4;
+}
+
+.idaho-img {
+    grid-row: 2/6;
+    grid-column: 6/8;
+}
+
+.section2 {
+    grid-row: 7/12;
+    grid-column: 1/8;
+    align-items: top;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 9fr auto;
+}
+
+.utah-text {
+    grid-row: 7/11;
+    grid-column: 6/8;
+}
+
+.utah-img {
+    grid-row: 7/11;
+    grid-column: 2/4;
+}
+
+.section3 {
+    grid-row: 12/17;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 9fr auto;
+}
+
+.arizona-text {
+    grid-row: 12/16;
+    grid-column: 2/4;
+}
+
+.arizona-img {
+    grid-row: 12/16;
+    grid-column: 6/8;
+}
