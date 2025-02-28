@@ -296,60 +296,94 @@ footer .social img {
 
 .rivers-grid {
     display: grid;
-    grid-template-columns: 9fr auto;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 50px;
 }
 
 .section1 {
-    grid-row: 1/6;
-    grid-column: 1/8;
-    align-items: top;
-    justify-items: center;
+    grid-column: 1/10;
     display: grid;
-    grid-template-columns: 9fr auto;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 40px;
 }
 
 .idaho-text {
-    grid-row: 2/6;
-    grid-column: 2/4;
+    grid-row: 1/5;
+    grid-column: 2/7;
+    text-align: left;
+    font-size: 20px;
 }
 
 .idaho-img {
-    grid-row: 2/6;
-    grid-column: 6/8;
+    height: 400px;
+    width: 400px;
+    grid-row: 2/3;
+    grid-column: 8/11;
+    justify-items: center;
+   
+}
+
+#rivers-background {
+    background-color: #f1f9f9;
+    grid-column: 1/10;
 }
 
 .section2 {
-    grid-row: 7/12;
-    grid-column: 1/8;
-    align-items: top;
-    justify-items: center;
+    grid-column: 1/10;
     display: grid;
-    grid-template-columns: 9fr auto;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 40px;
 }
 
 .utah-text {
-    grid-row: 7/11;
-    grid-column: 6/8;
+    text-align: right;
+    grid-row: 1/6;
+    grid-column: 6/11;
+    font-size: 20px;
 }
 
 .utah-img {
-    grid-row: 7/11;
-    grid-column: 2/4;
+    height: 400px;
+    width: 400px;
+    justify-items: center;
+    grid-row: 2/3;
+    grid-column: 2/5;
 }
 
 .section3 {
-    grid-row: 12/17;
-    grid-column: 1/8;
+    grid-column: 1/10;
     display: grid;
-    grid-template-columns: 9fr auto;
+    grid-template-columns: repeat(11, 1fr);
+    margin: 40px;
+    margin-bottom: -50px;
 }
 
 .arizona-text {
-    grid-row: 12/16;
-    grid-column: 2/4;
+    grid-row: 1/5;
+    grid-column: 2/7;
+    text-align: left;
+    font-size: 20px;
 }
 
 .arizona-img {
-    grid-row: 12/16;
-    grid-column: 6/8;
+    height: 400px;
+    width: 400px;
+    grid-row: 2/4;
+    grid-column: 8/11;
+    justify-items: center;
+}
+
+section img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 10px #71a1a2;
+}
+
+.rivers-grid h3 {
+    font-family: Fjalla One, Lilita One, Outfit;
+    color: #b85803;
+}
+
+.rivers-grid p {
+    font-family: Outfit, Fjalla One, Lilita One;
 }
