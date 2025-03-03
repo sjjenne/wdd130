@@ -373,7 +373,7 @@ footer .social img {
     justify-items: center;
 }
 
-section img {
+.idaho-img img, .utah-img img, .arizona-img img {
     width: 400px;
     height: 400px;
     box-shadow: 5px 5px 10px #71a1a2;

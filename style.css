@@ -12,12 +12,12 @@ body {
 
 nav {
     display: flex;
+    justify-content: center;
 }
 
 nav, footer {
     background-color: #c6aba5;
     padding: 20px;
-    text-align: center;
 }
 
 nav a {
@@ -63,7 +63,6 @@ p {
     padding: 20px;
     box-sizing: border-box;
 }
-
 
 #body-text {
     padding-top: 30px;
