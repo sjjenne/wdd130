@@ -379,11 +379,11 @@ footer .social img {
     box-shadow: 5px 5px 10px #71a1a2;
 }
 
-.rivers-grid h3 {
+.rivers-grid h3, .section3 h3 {
     font-family: Fjalla One, Lilita One, Outfit;
     color: #b85803;
 }
 
-.rivers-grid p {
+.rivers-grid p, .section3 p {
     font-family: Outfit, Fjalla One, Lilita One;
 }
