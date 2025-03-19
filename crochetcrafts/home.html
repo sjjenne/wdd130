@@ -8,39 +8,41 @@
 </head>
 <body>
     <header>
-        <a id="logo-link" href="home.html">
+        <a href="home.html">
             <img class="logo" src="images/logo-crochet.png" alt="Sammy's Crochet Crafts Logo">
         </a>
-        <nav class="header-nav">
+        <nav id="header-nav">
             <div class="nav-box"><a href="home.html">Home</a></div>
             <div class="nav-box"><a href="about.html">About</a></div>
             <div class="nav-box"><a href="patterns.html">Patterns</a></div>
-            <div class="nav-box"><a href="https://www.etsy.com/shop/sammyscrochetcrafts?ref=seller-platform-mcnav">Etsy</a></div>
+            <div class="nav-box" id="nav-etsy"><a href="https://www.etsy.com/shop/sammyscrochetcrafts?ref=seller-platform-mcnav">Etsy</a></div>
         </nav>
     </header>
-    <div id="banner">
+    <div>
         <img id="banner-img" src="images/banner.png" alt="Sammy's Crochet Crafts Banner">
     </div>
-    <main class="content">
-        <section class="intro">
+    <main id="content">
+        <section id="intro">
             <p> 
                 Adorable handmade crochet plushies! 
                 Each plushie is crafted with love and care, making them perfect gifts or additions to collections. 
-                Explore my website to learn more about me and my business, and to find the perfect crochet companion for you or someone special, visit my Etsy! ♡
+                Explore my website to learn more about me and my business. To find the perfect crochet companion for you or someone special, visit my Etsy! ♡
             </p>
         </section>
-        <section class="plushies-section">
-            <div class="heading">
-                <h1>Plushies</h1>
-            </div>
-            <div class="img-scroll">
-                <img src="images/duck.jpg" alt="Crochet Duck">
+        <hr>
+        <section>
+            <h1 class="heading">Plushies</h1>
+            <div id="img-scroll">
+                <img src="images/whales.jpg" alt="Crochet Whales">
                 <img src="images/giraffe.jpg" alt="Crochet Giraffe">
                 <img src="images/frogs.jpg" alt="Crochet Frogs">
+                <img src="images/hatduck.jpg" alt="Crochet Duck">
+                <img src="images/smallturtle.jpg" alt="Crochet Turtle">
                 <img src="images/penguin.jpg" alt="Crochet Penguin">
-                <img src="images/whales.JPG" alt="Crochet Whales">
+                <img src="images/duck.jpg" alt="Crochet Duck">
+                <img src="images/bigcow.jpg" alt="Crochet Cow">
             </div>
-            <div>
+            <div id="plushies-caption">
                 <div class="button">
                     <a class="etsy-button" href="https://www.etsy.com/shop/sammyscrochetcrafts?ref=seller-platform-mcnav">Etsy</a>
                 </div>
@@ -52,42 +54,37 @@
                 </div>
             </div>
         </section>
-        <section class="patterns-section">
-            <div id="pattern-imgs">
-                <div id="large-img">
-                    <img src="images/icecream-patterncover.png" alt="Crochet IceCream">
-                </div>
-                <div id="small-img">
-                    <img src="images/icecream.jpg" alt="Crochet IceCream Cones">
-                    <img src="images/sammyscrochetcrafts.jpg" alt="#">
-                </div>
-            </div>
+        <section id="patterns-section">
+            <img id="pattern-left-img" src="images/icecream-patterncover.png" alt="Crochet IceCream">
+            <img id="pattern-rightupper-img" src="images/icecream.jpg" alt="Crochet IceCream Cones">
+            <img id="pattern-leftlower-img" src="images/sammyscrochetcrafts.jpg" alt="Crochet IceCream Cones">
             <div id="pattern-words">
                 <p class="description">Explore my free patterns, all accessible on my site!</p>
-                <div class="button">
-                    <a class="patterns-button" href="patterns.html">Patterns</a>
-                </div>
+            </div>
+            <div class="button">
+                <a href="patterns.html">Patterns</a>
             </div>
         </section>
     </main>
     <footer>
-        <a id="logo-link" href="home.html">
+        <a class="footer-logo" href="home.html">
             <img class="logo" src="images/logo-crochet.png" alt="Sammy's Crochet Crafts Logo">
         </a>
+        <a class="footer-social" href="https://www.instagram.com/sammyscrochetcrafts/" target="_blank">
+            <img src="images/insta.png" alt="instagram icon">
+        </a>
         <div class="footer-nav">
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <p><a href="about.html">About FAQ</a></p>
-            <p><a href="patterns.html">Free Patterns</a></p>
-            <p><a href="https://www.etsy.com/shop/sammyscrochetcrafts?ref=seller-platform-mcnav">Etsy Shop</a></p>
+            <ul>
+                <li><a href="site-plan.html">Site<br>Plan</a></li>
+                <li><a href="about.html">About<br>FAQ</a></li>
+                <li><a href="patterns.html">Free<br>Patterns</a></li>
+                <li><a href="https://www.etsy.com/shop/sammyscrochetcrafts?ref=seller-platform-mcnav">Etsy<br>Shop</a></li>
+            </ul>
         </div>
-        <div class="footer-social">
-            <a href="https://www.instagram.com/sammyscrochetcrafts/" target="_blank">
-                <img src="images/insta.png" alt="instagram icon">
-            </a>
-        </div>
+        
         <div class="footer-bottom">
-            <p>crashedcrafist@gmail.com</p>
-            <p>Sammy's Crochet Crafts &copy; 2025 - Sammy Jenne</p>
+            <p class="footer-email">crashedcrafist@gmail.com</p>
+            <p class="footer-copyright">Sammy's Crochet Crafts &copy; 2025 - Sammy Jenne</p>
         </div>
     </footer>
 </body>

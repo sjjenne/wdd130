@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&family=Outfit&family=DynaPuff:wght@500&family=Gluten:wght@600&display=swap');
+
+#content {
+    max-width: 1800px;
+    margin: 0 auto;
+    font-family: Chewy, Lilita One, Outfit;
+    letter-spacing: .25px;
+    font-size: 1.15em;
+    word-spacing: 2px;
+}
+
+#content p {
+    color: #f2c2a4;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: #eca36f26;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    float: right;
+    justify-content: space-around;
+}
+
+#header-nav a {
+    text-align: center;
+    color: #a6571b; 
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: DynaPuff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.nav-box {
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#nav-etsy a {
+    background-color: #a6571b;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+#nav-etsy a:hover{
+    background-color: #a6571bbe;
+}
+
+#banner-img {
+    width: 100%;
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+#intro {
+    margin: 50px;
+}
+
+.heading {
+    color: #a6571b;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#img-scroll img {
+    width: 300px;
+    height: 290px;
+    padding: 8px;
+}
+
+#img-scroll {
+    background-color: #eca36f26;
+    border-radius: 15px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#plushies-caption {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 100px;
+}
+
+#plushies-caption .button {
+    grid-column: 2/3;
+}
+
+.button {
+    text-align: center;
+    transition: transform 1s;
+    align-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: DynaPuff;
+    background-color: #a6571b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+#plushies-caption .description {
+    grid-column: 3/5;
+}
+
+#patterns-section {
+    margin: 50px 150px 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 100px);
+}
+
+#patterns-section {
+    background-color: #eca36f26;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#pattern-left-img {
+    width: 380px;
+    grid-column: 1/2;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#pattern-rightupper-img {
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: center;
+}
+
+#pattern-leftlower-img {
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 3/5;
+    align-self: center;
+}
+
+#pattern-rightupper-img, #pattern-leftlower-img, #pattern-left-img {
+    box-shadow: 2px 3px 3px #eca36f;
+    border-radius: 15px;
+}
+
+#pattern-words {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    align-self: center;
+    text-align: center;
+}
+
+#patterns-section .button {
+    grid-column: 4/6;
+    grid-row: 2/3;
+}
+
+hr {
+    border: 1.5px solid #eca46f;
+    width: 80%;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #a6571b;
+    color: white;
+    font-family: DynaPuff;
+    margin-top: 150px;
+    padding: 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.footer-logo img {
+    width: 180px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: -100px;
+}
+
+.footer-nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer-nav ul li {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a:hover {
+    color: #f2c2a4;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: right;
+    margin-top: -160px;
+}
+
+.footer-social img {
+    width: 50px;
+}
+
+.footer-email {
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright:hover{
+    text-decoration: underline;
+}
