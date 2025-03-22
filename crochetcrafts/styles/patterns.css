@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&family=Outfit&family=DynaPuff:wght@500&family=Gluten:wght@600&display=swap');
+
+#patterns-content {
+    max-width: 1800px;
+    margin: 0 auto;
+    font-family: Chewy, Lilita One, Outfit;
+    letter-spacing: .25px;
+    font-size: 1.15em;
+    word-spacing: 2px;
+}
+
+.logo {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+header {
+    background-color: #eca36f26;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    float: right;
+    justify-content: space-around;
+}
+
+.header-nav a {
+    text-align: center;
+    color: #a6571b; 
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: DynaPuff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.nav-box {
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.nav-etsy a {
+    background-color: #a6571b;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+.nav-etsy a:hover{
+    background-color: #a6571bbe;
+}
+
+.banner-img {
+    width: 100%;
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+/* all other content CSS in here! */
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #a6571b;
+    color: white;
+    font-family: DynaPuff;
+    margin-top: 150px;
+    padding: 20px 20px 20px;
+    border-radius: 15px;
+}
+
+.footer-logo img {
+    width: 180px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: -100px;
+}
+
+.footer-nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.footer-nav ul li {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li a:hover {
+    color: #f2c2a4;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: right;
+    margin-top: -160px;
+}
+
+.footer-social img {
+    width: 50px;
+}
+
+.footer-email {
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright:hover{
+    text-decoration: underline;
+}
