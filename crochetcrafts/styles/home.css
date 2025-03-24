@@ -6,7 +6,7 @@
     font-family: Chewy, Lilita One, Outfit;
     letter-spacing: .25px;
     font-size: 1.15em;
-    word-spacing: 2px;
+    word-spacing: 3px;
 }
 
 #home-content p {
@@ -196,6 +196,13 @@ footer {
 
 .footer-logo img {
     width: 180px;
+    opacity: 90%;
+    transition: transform 1s;
+}
+
+.footer-logo img:hover {
+    opacity: 100%;
+    transform: scale(1.1);
 }
 
 .footer-nav ul {
@@ -228,6 +235,17 @@ footer ul li a:hover {
     display: flex;
     justify-content: right;
     margin-top: -160px;
+}
+
+.footer-social img {
+    width: 50px;
+    transition: transform 1s;
+    opacity: 90%;
+}
+
+.footer-social img:hover {
+    opacity: 100%;
+    transform: scale(1.25);
 }
 
 .footer-social img {
