@@ -28,7 +28,7 @@
             </div>
             <div id="bio">
                 <p>
-                    &nbsp Hi! I'm Sammy, the crochter behind Sammy's Crochet Crafts! 
+                    &nbsp; Hi! I'm Sammy, the crochter behind Sammy's Crochet Crafts! 
                     It all began back in 2019 when I saw a video of a crochet cow- I knew I had to make one.
                     Through trial and error (and lots of YouTube), I progressed as a crocheter and in July of 2022 I decided to open an Etsy shop.
                     Ever since then I've continued to use Etsy and have attended handfuls of craft markets.
@@ -45,7 +45,7 @@
         </section>
         <hr>
         <section id="faq">
-            <div class="heading"><h1>Frequently Asked Questions</h3></div>
+            <div class="heading"><h1>Frequently Asked Questions</h1></div>
             <div id="faq-questions">
                 <div class="faq1">
                     <div class="question"><p>How did you learn to crochet?</p></div>
@@ -99,8 +99,8 @@
                     </div>
                 </div>
                 <div class="faq6">
-                    <div class="question" id="qa6"><p>What are your estimated delivery times?</p></div>
-                    <div class="answer" id="qa6">
+                    <div class="question"><p>What are your estimated delivery times?</p></div>
+                    <div class="answer">
                         <p> Delievery times can vary based on size and location. 
                             For the most part, my plushies are created and sent out 2-4 weeks after an order is placed.
                             This length is due to the fact I'm a full-time student, specific yarn availability, and time required!
@@ -111,13 +111,13 @@
                 </div>
             </div>
         </section>
-        <section id="contact-further">
+        <div id="contact-further">
             <div id="contact-description"><p>Feel free to contact me with any more questions or concerns!</p></div>
             <div id="email-img"><img src="images/email-icon.jpg" alt="Email photo"></div>
             <div id="email-address"><p>crashedcrafist@gmail.com</p></div>
             <div id="insta-img"><img src="images/insta.png" alt="Insta photo"></div>
             <div id="insta-handle"><p>@sammyscrochetcrafts</p></div>
-        </section>
+        </div>
     </main>
     <footer>
         <a class="footer-logo" href="home.html">
@@ -142,22 +142,22 @@
             <p>Sammy's Crochet Crafts &copy; 2025 - Sammy Jenne</p>
         </div>
     </footer>
-</body>
-<script>
-    var acc = document.getElementsByClassName("question");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-
-        var answer = this.nextElementSibling;
-        if (answer.style.display === "block") {
-        answer.style.display = "none";
-        } else {
-        answer.style.display = "block";
+    <script>
+        var acc = document.getElementsByClassName("question");
+        var i;
+    
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+    
+            var answer = this.nextElementSibling;
+            if (answer.style.display === "block") {
+            answer.style.display = "none";
+            } else {
+            answer.style.display = "block";
+            }
+        });
         }
-    });
-    }
-</script>
+    </script>
+</body>
 </html>
