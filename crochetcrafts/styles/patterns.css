@@ -9,10 +9,6 @@
     word-spacing: 3px;
 }
 
-#patterns-content p {
-    color: #f2c2a4;
-}
-
 .logo {
     width: 100px;
     padding: 10px 20px;
@@ -70,6 +66,7 @@ nav a:hover {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
+    color: #f2c2a4;
 }
 
 hr {
@@ -98,7 +95,7 @@ hr {
 #icecream-patterncover-img img{
     width: 400px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #eca36f3c;
+    box-shadow: 5px 5px 5px 5px #a6571b16;
 }
 
 #icecream-patterncover-img {
@@ -123,12 +120,14 @@ hr {
     grid-column: 1/3;
     grid-row: 3/4;
     justify-self: center;
+    color:#f2c2a4;
 }
 
 #end-written-pattern {
     grid-column: 2/4;
     grid-row: 3/4;
     justify-self: center;
+    color:#f2c2a4;
 }
 
 #begin-written-pattern p:hover, #end-written-pattern p:hover {
@@ -140,14 +139,71 @@ hr {
     grid-column: 1/4;
     grid-row: 3/4;
     border-radius: 15px;
-    width: 100%;
+    width: 75%;
     height: 500px;
     justify-self: center;
+    margin-top: -10px;
+    margin-right: -50px;
+    box-shadow: 5px 5px 5px 5px #a6571b16;
+}
+
+/* pattern images and instagram handles */
+
+
+.pattern-images img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.pattern-images {
+    margin-top: -200px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    color: #a6571b;
+}
+
+.img-container {
+    width: 80%;
+    background-color: #f2c2a4;
+    box-shadow: 5px 5px 5px 5px #eca36f3c;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 
 
+#pattern-bottom-hr {
+    margin-top: -100px;
+}
 
+
+/* instagram, stay connected */
+
+#social img {
+    width: 60px;
+    opacity: 95%;
+    display: flex;
+    justify-self: center;
+    margin-right: 500px;
+}
+
+#stay-connected p {
+    color: #f2c2a4;
+    display: flex;
+    justify-self: center;
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+#stay-connected {
+    margin-bottom: 250px;
+}
 
 footer {
     background-color: #a6571b;
