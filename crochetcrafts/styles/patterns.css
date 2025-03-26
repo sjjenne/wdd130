@@ -177,7 +177,6 @@ hr {
 }
 
 
-
 #pattern-bottom-hr {
     margin-top: -100px;
 }
@@ -191,6 +190,7 @@ hr {
     display: flex;
     justify-self: center;
     margin-right: 500px;
+    transition: transform 1s;
 }
 
 #stay-connected p {
@@ -203,6 +203,11 @@ hr {
 
 #stay-connected {
     margin-bottom: 250px;
+}
+
+#social img:hover{
+    opacity: 100%;
+    transform: scale(1.2);
 }
 
 footer {
