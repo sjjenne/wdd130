@@ -12,6 +12,13 @@
 .logo {
     width: 100px;
     padding: 10px 20px;
+    opacity: 90%;
+    transition: transform 1s;
+}
+
+.logo:hover {
+    opacity: 100%;
+    transform: scale(1.1);
 }
 
 header {
@@ -66,7 +73,7 @@ nav a:hover {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
-    color: #f2c2a4;
+    color: #eca46f;
 }
 
 hr {
@@ -95,8 +102,7 @@ hr {
 #icecream-patterncover-img img{
     width: 400px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px #a6571b16;
-    border: #f2c2a4 solid 15px;
+    border: #eca36f3c solid 15px;
 }
 
 #icecream-patterncover-img {
@@ -105,7 +111,7 @@ hr {
 }
 
 .list {
-    color: #f2c2a4;
+    color: #eca46f;
     justify-self: center;
 }
 
@@ -132,7 +138,7 @@ hr {
 }
 
 #begin-written-pattern p:hover, #end-written-pattern p:hover {
-    color: #f2c2a4;
+    color: #eca46f;
 }
 
 #background-color {
@@ -164,7 +170,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
-    color: #a6571b;
+    color: #eca46f;
 }
 
 .img-container {
@@ -187,15 +193,14 @@ hr {
 
 #social img {
     width: 60px;
-    opacity: 95%;
+    opacity: 90%;
     display: flex;
     justify-self: center;
     margin-right: 500px;
-    transition: transform 1s;
 }
 
 #stay-connected p {
-    color: #f2c2a4;
+    color: #eca46f;
     display: flex;
     justify-self: center;
     margin-left: 300px;
@@ -208,7 +213,6 @@ hr {
 
 #social img:hover{
     opacity: 100%;
-    transform: scale(1.2);
 }
 
 footer {
@@ -265,13 +269,11 @@ footer ul li a:hover {
 
 .footer-social img {
     width: 50px;
-    transition: transform 1s;
     opacity: 90%;
 }
 
 .footer-social img:hover {
     opacity: 100%;
-    transform: scale(1.25);
 }
 
 .footer-email {

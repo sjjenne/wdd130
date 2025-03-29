@@ -10,12 +10,19 @@
 }
 
 #home-content p {
-    color: #f2c2a4;
+    color: #eca46f;
 }
 
 .logo {
     width: 100px;
     padding: 10px 20px;
+    opacity: 90%;
+    transition: transform 1s;
+}
+
+.logo:hover {
+    opacity: 100%;
+    transform: scale(1.1);
 }
 
 header {
@@ -117,8 +124,8 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.button:hover {
-    transform: scale(1.2);
+.etsy-button:hover, .pattern-button:hover {
+    background-color: #a6571bbe;
 }
 
 #plushies-caption .description {
@@ -239,13 +246,11 @@ footer ul li a:hover {
 
 .footer-social img {
     width: 50px;
-    transition: transform 1s;
     opacity: 90%;
 }
 
 .footer-social img:hover {
     opacity: 100%;
-    transform: scale(1.25);
 }
 
 .footer-social img {
