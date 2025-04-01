@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Lilita+One&family=Outfit&family=DynaPuff:wght@500&family=Gluten:wght@600&display=swap');
 
-#home-content {
+#content {
     max-width: 1800px;
+}
+
+#home-content {
     margin: 0 auto;
     font-family: Chewy, Lilita One, Outfit;
     letter-spacing: .25px;
